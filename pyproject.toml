@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "discocatbot"
+version = "0.1.0"
+description = ""
+authors = ["Dmitriy Aleksandrov <adsis369@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.10.0"
+aiosqlite = "^0.20.0"
+loguru = "^0.7.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+venvPath = "/Users/ads/Library/Caches/pypoetry/virtualenvs"
+venv = "discocatbot-BvWsfJTt-py3.12"
